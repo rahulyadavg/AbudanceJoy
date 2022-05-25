@@ -1,0 +1,39 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    padding: 0.5rem;
+}
+
+.navbar {
+    background-color: teal;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.blockquote-footer {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ftco-footer {
+    background-color: dimgrey;
+}
+
+.py-2.d-block,
+.envelop-text {
+    color: rgba(221, 217, 217, 0.932);
+}
+
+.py-2.d-block,
+.envelop-text:hover {
+    color: whitesmoke;
+}

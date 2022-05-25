@@ -1,0 +1,33 @@
+body{
+	background-image: url(sp.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+}
+	.simple{
+		        
+		 		 margin-left:0px;
+	}
+	#sign{margin-top: 50px;
+		width: 45%;
+		background-color: black;
+		opacity: 0.6;
+		padding: 50px 0px;
+	}
+	#button{
+		width: 250px;
+		padding: 10px;
+		border-radius: 5px;
+	}
+	
+	h1{
+		margin-left: 15px;
+		text-align: left;
+		color: white;
+		margin-top: 10px;
+		font-size:40px;
+	}
+	h3{
+		margin-left: 15px;
+		text-align: left;
+		color: white;
+	}

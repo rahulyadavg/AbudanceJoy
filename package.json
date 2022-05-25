@@ -1,0 +1,21 @@
+{
+    "name": "finalyearproject4.0",
+    "version": "1.0.0",
+    "description": "node js for mysql",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Rahul",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap-icons": "^1.8.1",
+        "express": "^4.17.3",
+        "express-session": "^1.17.2",
+        "fs": "^0.0.1-security",
+        "module": "^1.2.5",
+        "moment": "^2.29.3",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.15"
+    }
+}

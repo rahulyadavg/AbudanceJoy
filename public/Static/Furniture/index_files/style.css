@@ -1,0 +1,63 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    padding: 0.5rem;
+}
+
+.navbar {
+    background-color: teal;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ftco-search {
+    padding: 5rem;
+    background-color: cornflowerblue;
+}
+
+hr {
+    border-radius: 20px;
+    border: 0.1rem solid rgb(5, 217, 245);
+    margin: auto;
+    margin-bottom: 0.4rem;
+}
+
+hr.new1 {
+    width: 15%
+}
+
+hr.new2 {
+    width: 12%
+}
+
+.col-md-4:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 00), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    transition: all .35s ease-in-out;
+}
+
+.blockquote-footer {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ftco-footer {
+    background-color: dimgrey;
+}
+
+.py-2.d-block {
+    color: rgba(221, 217, 217, 0.932);
+}
+
+.py-2.d-block,
+.envelop-text:hover {
+    color: red;
+}

@@ -1,0 +1,90 @@
+/* body-container */
+
+.body-container {
+    font-family: "Open Sans", sans-serif;
+    padding: 0.3rem;
+}
+
+
+/* body-container */
+
+
+/* navbar */
+
+.navbar {
+    background-color: teal;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* navbar */
+
+.img-fluid {
+    margin: 2rem 0 2rem 0;
+}
+
+
+/* <description> */
+
+.rent-is-new-trend {
+    color: rgb(223, 222, 222);
+}
+
+.rent-is-new-trend:hover {
+    color: white;
+}
+
+
+/* <description> */
+
+
+/* <footer> */
+
+.blockquote-footer {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ftco-footer {
+    background-color: dimgrey;
+}
+
+.py-2.d-block {
+    color: #ffffff;
+}
+
+.py-2.d-block:hover {
+    color: rgba(221, 217, 217, 0.932);
+}
+
+.envelop-text {
+    color: #ffffff;
+}
+
+.envelop-text:hover {
+    color: rgba(221, 217, 217, 0.932);
+}
+
+.footer-icon {
+    font-size: 2rem;
+    color: white;
+}
+
+.footer-icon:hover {
+    font-size: 2rem;
+    color: rgba(221, 217, 217, 0.932);
+}
+
+
+/* <footer> */

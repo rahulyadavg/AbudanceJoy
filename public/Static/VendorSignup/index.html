@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media='screen' href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Vendor Signup</title>
+</head>
+
+<body>
+
+
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand hover-shadow hover-zoom" href="../../index.html">
+                <img rel="nofollow" src="../../res/logos/logo.jpg" height="50" alt="abudancejoy" loading="lazy" id="brand_img_child">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0 justify-content-between w-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../../index.html"> <i class="fa fa-home" aria-hidden="true"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../AboutUs/index.html"> <i class="fa fa-info" aria-hidden="true"></i>About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../ContactUs/index.html"> <i class="fa fa-address-book" aria-hidden="true"></i>Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Offer/index.html"> <i class="fa fa-gift" aria-hidden="true"></i> Offer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Enquiry/index.html"><i class="fa fa-question-circle" aria-hidden="true"></i>Enquiry</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Login/index.html"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Signup</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="hero is-primary is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <div class="row text-center my-3">
+                    <span class="h2 fw-bold mb-0">Vendor Signup</span>
+                </div>
+                <div class="columns is-centered">
+                    <div class="column is-6-desktop">
+                        <form class="box" autocomplete="on">
+
+                            <div class="field">
+                                <label for="name" class="label">Name*</label>
+                                <div class="control has-icons-left">
+                                    <input id="name" type="text" name="name" placeholder="e.g. Bob Smith" class="input" required>
+                                    <span class="icon is-small is-left">
+                                        <i class="fa fa-envelope"></i>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label for="phone" class="label">Phone*</label>
+                                <div class="control has-icons-left">
+                                    <input id="phone" type="number" name="phone" placeholder="e.g. 9026293495" class="input" required>
+                                    <span class="icon is-small is-left">
+                                        <i class="fa fa-envelope"></i>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label for="uname" class="label">Email*</label>
+                                <div class="control has-icons-left">
+                                    <input id="email" type="email" name="email" placeholder="e.g. bobsmith@gmail.com" class="input" required>
+                                    <span class="icon is-small is-left">
+                                        <i class="fa fa-envelope"></i>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label for="password" class="label">Password*</label>
+                                <div class="control has-icons-left">
+                                    <input id="password" type="password" name="password" placeholder="*******" class="input" required>
+                                    <span class="icon is-small is-left">
+                                        <i class="fa fa-lock"></i>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label for="repeat-password" class="label">Repeat Password*</label>
+                                <div class="control has-icons-left">
+                                    <input id="repeat-password" type="password" name="repeat-password" placeholder="*******" class="input" required>
+                                    <span class="icon is-small is-left">
+                                        <i class="fa fa-lock"></i>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label for="" class="checkbox">
+                                    <input id="checkbox" type="checkbox" name="remember">
+                                    Remember me
+                                </label>
+                            </div>
+
+                            <div class="field">
+                                <button id="submit" class="button is-success" name="submit">
+                                    Signup
+                                </button>
+                            </div>
+
+                        </form>
+                        <label for="signup">>Already have an account?<a href="../VendorLogin/index.html">Vendor Login</a></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <div class="ftco-footer-widget mb-4 ml-md-5">
+                            <h4 class="ftco-heading-2">ABUDANCE JOY</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="../../index.html" class="py-2 d-block">Home</a></li>
+                                <li><a href="../AboutUs/index.html" class="py-2 d-block">About Us</a></li>
+                                <li><a href="../ContactUs/index.html" class="py-2 d-block">Contact Us</a></li>
+                                <li><a href="../Enquiry/index.html" class="py-2 d-block">Enquiry</a></li>
+                            </ul>
+                            <a class="footer-icon" href=""><i class="fa fa-youtube-square" aria-hidden="true"></i></a> |
+                            <a class="footer-icon" href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4 ml-md-5">
+                        <h4 class="ftco-heading-2">Popular Categories</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="../Electronics/index.html" class="py-2 d-block">Electronics</a></li>
+                            <li><a href="../ComputerStorage/index.html" class="py-2 d-block">Computer Storage</a></li>
+                            <li><a href="../Multimedia/index.html" class="py-2 d-block">Multimedia</a></li>
+                            <li><a href="../Property/index.html" class="py-2 d-block">Property</a></li>
+                        </ul>
+                        <a class="footer-icon" href=""><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>|
+                        <a class="footer-icon" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h4 class="ftco-heading-2">Users</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="../Suggestion/index.html" class="py-2 d-block" data-mdb-toggle="modal" data-mdb-target="#sModal">Suggestion</a></li>
+                            <li><a href="../Feedback/index.html" class="py-2 d-block" data-mdb-toggle="modal" data-mdb-target="#fsModal">Feedback</a></li>
+                            <li><a href="../Testimonial/index.html" class="py-2 d-block" data-mdb-toggle="modal" data-mdb-target="#tModal">Testimonials</a></li>
+                            <li><a href="../Report/index.html" class="py-2 d-block" data-mdb-toggle="modal" data-mdb-target="#pModal" id="report_problem_modal_btn">Report a Problem</a></li>
+                        </ul>
+                        <a class="footer-icon" href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a> |
+                        <a class="footer-icon" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h4 class="ftco-heading-2">Have a Questions?</h4>
+                        <div class="block-23 mb-3">
+                            <ul class="contact-info">
+                                <li><span class="icon icon-map-marker"></span><span class="text">302, Deepali Building 3rd Floor, 92,Nehru Place, New Delhi-110019</span></li>
+                                <li><span class="icon icon-phone"></span><span class="text">+91 8800310711</span></li>
+                                <li><a href="mailto:info@abudancejoy.com"><span class="icon icon-envelope"></span><span class="envelop-text">info@abudancejoy.com</span></a></li>
+                            </ul>
+                            <br>
+                            <a class="footer-icon" href=""><i class="fa fa-google" aria-hidden="true"></i></a> |
+                            <a class="footer-icon" href="../ContactUs/index.html"><i class="fa fa-map" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>
+                    Copyright © 1990 -
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>2022 All rights reserved | Designed and Developed By <a href="http://www.visualsoftech.com" style="color: white" target="_blank">Visual Softech</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
